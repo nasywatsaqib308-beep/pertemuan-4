@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Seleksi DOM</title>
+  <style>
+    /* Internal CSS */
+    .tebal {
+      font-weight: bold;
+      color: black;
+    }
+
+    .produk-item {
+      margin: 5px 0;
+    }
+
+    ul {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Elemen dengan ID unik -->
+  <h1 id="header-utama">Ini Header Awal</h1>
+
+  <!-- Beberapa elemen dengan class yang sama -->
+  <div class="produk-item">Produk A</div>
+  <div class="produk-item">Produk B</div>
+  <div class="produk-item">Produk C</div>
+
+  <!-- Elemen dengan atribut data-status -->
+  <p data-status="pending">Pesanan #123 masih pending</p>
+
+  <!-- Daftar UL dengan beberapa LI -->
+  <ul>
+    <li>Item pertama</li>
+    <li>Item kedua</li>
+    <li>Item ketiga</li>
+  </ul>
+
+  <!-- Panggil JS -->
+  <script src="script.js"></script>
+</body>
+</html>
